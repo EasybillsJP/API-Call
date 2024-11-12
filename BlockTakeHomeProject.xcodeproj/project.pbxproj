@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0DF707ABA5D7461CDBD766 /* Pods_BlockTakeHomeProject_BlockTakeHomeProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B64774D85FDDDCB2F640B2 /* Pods_BlockTakeHomeProject_BlockTakeHomeProjectUITests.framework */; };
+		66D827A51156A996DE5818D0 /* Pods_BlockTakeHomeProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F35314DE5180A0477DFEA0 /* Pods_BlockTakeHomeProjectTests.framework */; };
+		979C8E12162FA3EE503EFAD1 /* Pods_BlockTakeHomeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335E3791107363F1BCC5323E /* Pods_BlockTakeHomeProject.framework */; };
+		CB172E122873E61000F25C38 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB172E112873E60F00F25C38 /* EmployeeViewController.swift */; };
+		CB49D15228764CA800A84989 /* MockEmployeeDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB49D15128764CA800A84989 /* MockEmployeeDataRepository.swift */; };
+		CBA1ED1528736DF900FB44EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED1428736DF900FB44EA /* AppDelegate.swift */; };
+		CBA1ED1728736DF900FB44EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED1628736DF900FB44EA /* SceneDelegate.swift */; };
+		CBA1ED1928736DF900FB44EA /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED1828736DF900FB44EA /* EmployeeDetailsViewController.swift */; };
+		CBA1ED1C28736DF900FB44EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA1ED1A28736DF900FB44EA /* Main.storyboard */; };
+		CBA1ED1E28736E0800FB44EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA1ED1D28736E0800FB44EA /* Assets.xcassets */; };
+		CBA1ED2128736E0800FB44EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA1ED1F28736E0800FB44EA /* LaunchScreen.storyboard */; };
+		CBA1ED2C28736E0900FB44EA /* BlockTakeHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED2B28736E0900FB44EA /* BlockTakeHomeProjectTests.swift */; };
+		CBA1ED3628736E0900FB44EA /* BlockTakeHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED3528736E0900FB44EA /* BlockTakeHomeProjectUITests.swift */; };
+		CBA1ED3828736E0900FB44EA /* BlockTakeHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED3728736E0900FB44EA /* BlockTakeHomeProjectUITestsLaunchTests.swift */; };
+		CBA1ED4628737D5F00FB44EA /* EmployeeDirectoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED4528737D5F00FB44EA /* EmployeeDirectoryRepository.swift */; };
+		CBA1ED4828737E6100FB44EA /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED4728737E6100FB44EA /* DataModel.swift */; };
+		CBA1ED4A2873812600FB44EA /* NetworkEmployeeDirectoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1ED492873812500FB44EA /* NetworkEmployeeDirectoryRepository.swift */; };
+		CBDE249A2873AFB600C1AEA3 /* EmployeeDataCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE24992873AFB600C1AEA3 /* EmployeeDataCellViewModel.swift */; };
+		CBDE249D2873B9CE00C1AEA3 /* CellDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE249C2873B9CD00C1AEA3 /* CellDataView.swift */; };
+		CBDE249F2873CF5100C1AEA3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE249E2873CF5100C1AEA3 /* CollectionViewCell.swift */; };
+		CBDE24A12873D07000C1AEA3 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE24A02873D07000C1AEA3 /* HeaderCollectionReusableView.swift */; };
+		E08D10A729BA93F200233F48 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D10A629BA93F200233F48 /* NetworkReachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA1ED2828736E0900FB44EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA1ED0928736DF900FB44EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA1ED1028736DF900FB44EA;
+			remoteInfo = BlockTakeHomeProject;
+		};
+		CBA1ED3228736E0900FB44EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA1ED0928736DF900FB44EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA1ED1028736DF900FB44EA;
+			remoteInfo = BlockTakeHomeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ECEBD610C41D3E84C4016A6 /* Pods-BlockTakeHomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProject.debug.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProject/Pods-BlockTakeHomeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		335E3791107363F1BCC5323E /* Pods_BlockTakeHomeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockTakeHomeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE6477CAC013F6651BFAA83 /* Pods-BlockTakeHomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProject.release.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProject/Pods-BlockTakeHomeProject.release.xcconfig"; sourceTree = "<group>"; };
+		52F35314DE5180A0477DFEA0 /* Pods_BlockTakeHomeProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockTakeHomeProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B64774D85FDDDCB2F640B2 /* Pods_BlockTakeHomeProject_BlockTakeHomeProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockTakeHomeProject_BlockTakeHomeProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB172E112873E60F00F25C38 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		CB49D15128764CA800A84989 /* MockEmployeeDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEmployeeDataRepository.swift; sourceTree = "<group>"; };
+		CBA1ED1128736DF900FB44EA /* BlockTakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockTakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA1ED1428736DF900FB44EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBA1ED1628736DF900FB44EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBA1ED1828736DF900FB44EA /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
+		CBA1ED1B28736DF900FB44EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA1ED1D28736E0800FB44EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA1ED2028736E0800FB44EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBA1ED2228736E0800FB44EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA1ED2728736E0900FB44EA /* BlockTakeHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTakeHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA1ED2B28736E0900FB44EA /* BlockTakeHomeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTakeHomeProjectTests.swift; sourceTree = "<group>"; };
+		CBA1ED3128736E0900FB44EA /* BlockTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA1ED3528736E0900FB44EA /* BlockTakeHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTakeHomeProjectUITests.swift; sourceTree = "<group>"; };
+		CBA1ED3728736E0900FB44EA /* BlockTakeHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTakeHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBA1ED4528737D5F00FB44EA /* EmployeeDirectoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDirectoryRepository.swift; sourceTree = "<group>"; };
+		CBA1ED4728737E6100FB44EA /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CBA1ED492873812500FB44EA /* NetworkEmployeeDirectoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEmployeeDirectoryRepository.swift; sourceTree = "<group>"; };
+		CBDE24992873AFB600C1AEA3 /* EmployeeDataCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataCellViewModel.swift; sourceTree = "<group>"; };
+		CBDE249C2873B9CD00C1AEA3 /* CellDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataView.swift; sourceTree = "<group>"; };
+		CBDE249E2873CF5100C1AEA3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CBDE24A02873D07000C1AEA3 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		D6615C32507575563979DD25 /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E08D10A629BA93F200233F48 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		E41AF69D6AA24EBFE958A934 /* Pods-BlockTakeHomeProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProjectTests/Pods-BlockTakeHomeProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F72CF622A16397947B0B4F0F /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDF2756483E9B1AA0F414B10 /* Pods-BlockTakeHomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProjectTests/Pods-BlockTakeHomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA1ED0E28736DF900FB44EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979C8E12162FA3EE503EFAD1 /* Pods_BlockTakeHomeProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA1ED2428736E0900FB44EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D827A51156A996DE5818D0 /* Pods_BlockTakeHomeProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA1ED2E28736E0900FB44EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0DF707ABA5D7461CDBD766 /* Pods_BlockTakeHomeProject_BlockTakeHomeProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64215DAE5BEC82E04C068ED9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				335E3791107363F1BCC5323E /* Pods_BlockTakeHomeProject.framework */,
+				81B64774D85FDDDCB2F640B2 /* Pods_BlockTakeHomeProject_BlockTakeHomeProjectUITests.framework */,
+				52F35314DE5180A0477DFEA0 /* Pods_BlockTakeHomeProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3748B04D969E16EF10A2AE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ECEBD610C41D3E84C4016A6 /* Pods-BlockTakeHomeProject.debug.xcconfig */,
+				4EE6477CAC013F6651BFAA83 /* Pods-BlockTakeHomeProject.release.xcconfig */,
+				D6615C32507575563979DD25 /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig */,
+				F72CF622A16397947B0B4F0F /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig */,
+				E41AF69D6AA24EBFE958A934 /* Pods-BlockTakeHomeProjectTests.debug.xcconfig */,
+				FDF2756483E9B1AA0F414B10 /* Pods-BlockTakeHomeProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB49D15028764ACD00A84989 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1ED4728737E6100FB44EA /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBA1ED0828736DF900FB44EA = {
+			isa = PBXGroup;
+			children = (
+				CBA1ED1328736DF900FB44EA /* BlockTakeHomeProject */,
+				CBA1ED2A28736E0900FB44EA /* BlockTakeHomeProjectTests */,
+				CBA1ED3428736E0900FB44EA /* BlockTakeHomeProjectUITests */,
+				CBA1ED1228736DF900FB44EA /* Products */,
+				B3748B04D969E16EF10A2AE4 /* Pods */,
+				64215DAE5BEC82E04C068ED9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA1ED1228736DF900FB44EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1ED1128736DF900FB44EA /* BlockTakeHomeProject.app */,
+				CBA1ED2728736E0900FB44EA /* BlockTakeHomeProjectTests.xctest */,
+				CBA1ED3128736E0900FB44EA /* BlockTakeHomeProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA1ED1328736DF900FB44EA /* BlockTakeHomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				CB49D15028764ACD00A84989 /* Model */,
+				CBDE24A22873E43200C1AEA3 /* ViewControllers */,
+				CBDE249B2873B9B600C1AEA3 /* View */,
+				CBDE24982873AF6700C1AEA3 /* ViewModel */,
+				CBA1ED4428737D2F00FB44EA /* Helper */,
+				CBA1ED1428736DF900FB44EA /* AppDelegate.swift */,
+				CBA1ED1628736DF900FB44EA /* SceneDelegate.swift */,
+				CBA1ED1A28736DF900FB44EA /* Main.storyboard */,
+				CBA1ED1D28736E0800FB44EA /* Assets.xcassets */,
+				CBA1ED1F28736E0800FB44EA /* LaunchScreen.storyboard */,
+				CBA1ED2228736E0800FB44EA /* Info.plist */,
+			);
+			path = BlockTakeHomeProject;
+			sourceTree = "<group>";
+		};
+		CBA1ED2A28736E0900FB44EA /* BlockTakeHomeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1ED2B28736E0900FB44EA /* BlockTakeHomeProjectTests.swift */,
+				CB49D15128764CA800A84989 /* MockEmployeeDataRepository.swift */,
+			);
+			path = BlockTakeHomeProjectTests;
+			sourceTree = "<group>";
+		};
+		CBA1ED3428736E0900FB44EA /* BlockTakeHomeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1ED3528736E0900FB44EA /* BlockTakeHomeProjectUITests.swift */,
+				CBA1ED3728736E0900FB44EA /* BlockTakeHomeProjectUITestsLaunchTests.swift */,
+			);
+			path = BlockTakeHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		CBA1ED4428737D2F00FB44EA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1ED4528737D5F00FB44EA /* EmployeeDirectoryRepository.swift */,
+				CBA1ED492873812500FB44EA /* NetworkEmployeeDirectoryRepository.swift */,
+				E08D10A629BA93F200233F48 /* NetworkReachability.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CBDE24982873AF6700C1AEA3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBDE24992873AFB600C1AEA3 /* EmployeeDataCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBDE249B2873B9B600C1AEA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBDE249C2873B9CD00C1AEA3 /* CellDataView.swift */,
+				CBDE249E2873CF5100C1AEA3 /* CollectionViewCell.swift */,
+				CBDE24A02873D07000C1AEA3 /* HeaderCollectionReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBDE24A22873E43200C1AEA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB172E112873E60F00F25C38 /* EmployeeViewController.swift */,
+				CBA1ED1828736DF900FB44EA /* EmployeeDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA1ED1028736DF900FB44EA /* BlockTakeHomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA1ED3B28736E0900FB44EA /* Build configuration list for PBXNativeTarget "BlockTakeHomeProject" */;
+			buildPhases = (
+				43C6EBC86228B59F69929F27 /* [CP] Check Pods Manifest.lock */,
+				CBA1ED0D28736DF900FB44EA /* Sources */,
+				CBA1ED0E28736DF900FB44EA /* Frameworks */,
+				CBA1ED0F28736DF900FB44EA /* Resources */,
+				EF4B429559649AADE6443ACE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockTakeHomeProject;
+			productName = BlockTakeHomeProject;
+			productReference = CBA1ED1128736DF900FB44EA /* BlockTakeHomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA1ED2628736E0900FB44EA /* BlockTakeHomeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA1ED3E28736E0900FB44EA /* Build configuration list for PBXNativeTarget "BlockTakeHomeProjectTests" */;
+			buildPhases = (
+				5D00C4E9CD95C618063CC29C /* [CP] Check Pods Manifest.lock */,
+				CBA1ED2328736E0900FB44EA /* Sources */,
+				CBA1ED2428736E0900FB44EA /* Frameworks */,
+				CBA1ED2528736E0900FB44EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA1ED2928736E0900FB44EA /* PBXTargetDependency */,
+			);
+			name = BlockTakeHomeProjectTests;
+			productName = BlockTakeHomeProjectTests;
+			productReference = CBA1ED2728736E0900FB44EA /* BlockTakeHomeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBA1ED3028736E0900FB44EA /* BlockTakeHomeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA1ED4128736E0900FB44EA /* Build configuration list for PBXNativeTarget "BlockTakeHomeProjectUITests" */;
+			buildPhases = (
+				2A8E842FC3D963489B099C19 /* [CP] Check Pods Manifest.lock */,
+				CBA1ED2D28736E0900FB44EA /* Sources */,
+				CBA1ED2E28736E0900FB44EA /* Frameworks */,
+				CBA1ED2F28736E0900FB44EA /* Resources */,
+				F640F9CD2D07367FA10FD9EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA1ED3328736E0900FB44EA /* PBXTargetDependency */,
+			);
+			name = BlockTakeHomeProjectUITests;
+			productName = BlockTakeHomeProjectUITests;
+			productReference = CBA1ED3128736E0900FB44EA /* BlockTakeHomeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA1ED0928736DF900FB44EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CBA1ED1028736DF900FB44EA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CBA1ED2628736E0900FB44EA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CBA1ED1028736DF900FB44EA;
+					};
+					CBA1ED3028736E0900FB44EA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CBA1ED1028736DF900FB44EA;
+					};
+				};
+			};
+			buildConfigurationList = CBA1ED0C28736DF900FB44EA /* Build configuration list for PBXProject "BlockTakeHomeProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA1ED0828736DF900FB44EA;
+			productRefGroup = CBA1ED1228736DF900FB44EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA1ED1028736DF900FB44EA /* BlockTakeHomeProject */,
+				CBA1ED2628736E0900FB44EA /* BlockTakeHomeProjectTests */,
+				CBA1ED3028736E0900FB44EA /* BlockTakeHomeProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA1ED0F28736DF900FB44EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA1ED2128736E0800FB44EA /* LaunchScreen.storyboard in Resources */,
+				CBA1ED1E28736E0800FB44EA /* Assets.xcassets in Resources */,
+				CBA1ED1C28736DF900FB44EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA1ED2528736E0900FB44EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA1ED2F28736E0900FB44EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A8E842FC3D963489B099C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C6EBC86228B59F69929F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockTakeHomeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D00C4E9CD95C618063CC29C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockTakeHomeProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4B429559649AADE6443ACE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockTakeHomeProject/Pods-BlockTakeHomeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockTakeHomeProject/Pods-BlockTakeHomeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockTakeHomeProject/Pods-BlockTakeHomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F640F9CD2D07367FA10FD9EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA1ED0D28736DF900FB44EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA1ED4828737E6100FB44EA /* DataModel.swift in Sources */,
+				CBA1ED1928736DF900FB44EA /* EmployeeDetailsViewController.swift in Sources */,
+				CBDE249F2873CF5100C1AEA3 /* CollectionViewCell.swift in Sources */,
+				CBDE249D2873B9CE00C1AEA3 /* CellDataView.swift in Sources */,
+				CBA1ED1528736DF900FB44EA /* AppDelegate.swift in Sources */,
+				CBA1ED1728736DF900FB44EA /* SceneDelegate.swift in Sources */,
+				CBDE249A2873AFB600C1AEA3 /* EmployeeDataCellViewModel.swift in Sources */,
+				CB172E122873E61000F25C38 /* EmployeeViewController.swift in Sources */,
+				CBA1ED4A2873812600FB44EA /* NetworkEmployeeDirectoryRepository.swift in Sources */,
+				CBDE24A12873D07000C1AEA3 /* HeaderCollectionReusableView.swift in Sources */,
+				CBA1ED4628737D5F00FB44EA /* EmployeeDirectoryRepository.swift in Sources */,
+				E08D10A729BA93F200233F48 /* NetworkReachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA1ED2328736E0900FB44EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB49D15228764CA800A84989 /* MockEmployeeDataRepository.swift in Sources */,
+				CBA1ED2C28736E0900FB44EA /* BlockTakeHomeProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA1ED2D28736E0900FB44EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA1ED3828736E0900FB44EA /* BlockTakeHomeProjectUITestsLaunchTests.swift in Sources */,
+				CBA1ED3628736E0900FB44EA /* BlockTakeHomeProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA1ED2928736E0900FB44EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA1ED1028736DF900FB44EA /* BlockTakeHomeProject */;
+			targetProxy = CBA1ED2828736E0900FB44EA /* PBXContainerItemProxy */;
+		};
+		CBA1ED3328736E0900FB44EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA1ED1028736DF900FB44EA /* BlockTakeHomeProject */;
+			targetProxy = CBA1ED3228736E0900FB44EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA1ED1A28736DF900FB44EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA1ED1B28736DF900FB44EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA1ED1F28736E0800FB44EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA1ED2028736E0800FB44EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA1ED3928736E0900FB44EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBA1ED3A28736E0900FB44EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA1ED3C28736E0900FB44EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECEBD610C41D3E84C4016A6 /* Pods-BlockTakeHomeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockTakeHomeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easybills.BlockTakeHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CBA1ED3D28736E0900FB44EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE6477CAC013F6651BFAA83 /* Pods-BlockTakeHomeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockTakeHomeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easybills.BlockTakeHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CBA1ED3F28736E0900FB44EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41AF69D6AA24EBFE958A934 /* Pods-BlockTakeHomeProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easybills.BlockTakeHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTakeHomeProject.app/BlockTakeHomeProject";
+			};
+			name = Debug;
+		};
+		CBA1ED4028736E0900FB44EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF2756483E9B1AA0F414B10 /* Pods-BlockTakeHomeProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easybills.BlockTakeHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTakeHomeProject.app/BlockTakeHomeProject";
+			};
+			name = Release;
+		};
+		CBA1ED4228736E0900FB44EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6615C32507575563979DD25 /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easybills.BlockTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockTakeHomeProject;
+			};
+			name = Debug;
+		};
+		CBA1ED4328736E0900FB44EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72CF622A16397947B0B4F0F /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easybills.BlockTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockTakeHomeProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA1ED0C28736DF900FB44EA /* Build configuration list for PBXProject "BlockTakeHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1ED3928736E0900FB44EA /* Debug */,
+				CBA1ED3A28736E0900FB44EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA1ED3B28736E0900FB44EA /* Build configuration list for PBXNativeTarget "BlockTakeHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1ED3C28736E0900FB44EA /* Debug */,
+				CBA1ED3D28736E0900FB44EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA1ED3E28736E0900FB44EA /* Build configuration list for PBXNativeTarget "BlockTakeHomeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1ED3F28736E0900FB44EA /* Debug */,
+				CBA1ED4028736E0900FB44EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA1ED4128736E0900FB44EA /* Build configuration list for PBXNativeTarget "BlockTakeHomeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1ED4228736E0900FB44EA /* Debug */,
+				CBA1ED4328736E0900FB44EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA1ED0928736DF900FB44EA /* Project object */;
+}
