@@ -77,6 +77,7 @@
 		CBDE249E2873CF5100C1AEA3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		CBDE24A02873D07000C1AEA3 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		D6615C32507575563979DD25 /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E04D24412CF91A850096FCD0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E08D10A629BA93F200233F48 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		E41AF69D6AA24EBFE958A934 /* Pods-BlockTakeHomeProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProjectTests/Pods-BlockTakeHomeProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F72CF622A16397947B0B4F0F /* Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests/Pods-BlockTakeHomeProject-BlockTakeHomeProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +204,7 @@
 		CBA1ED4428737D2F00FB44EA /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				E04D24412CF91A850096FCD0 /* Constants.swift */,
 				CBA1ED4528737D5F00FB44EA /* EmployeeDirectoryRepository.swift */,
 				CBA1ED492873812500FB44EA /* NetworkEmployeeDirectoryRepository.swift */,
 				E08D10A629BA93F200233F48 /* NetworkReachability.swift */,

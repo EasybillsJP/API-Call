@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 
 class NetworkEmployeeDirectoryRepository: EmployeeDirectoryRepository {
-    var baseUrl: String = "https://s3.amazonaws.com/sq-mobile-interview/employees.json"
+    let baseUrl = "https://s3.amazonaws.com/sq-mobile-interview/employees.json"
     
     func fetchEmployeeData(completion: @escaping (Result<[EmployeeData], AppError>) -> Void) {
         guard Connectivity.isConnectedToInternet() else {
